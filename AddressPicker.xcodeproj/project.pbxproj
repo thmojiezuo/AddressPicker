@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC6DCDB91F9DE1AB00C34621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DCDB81F9DE1AB00C34621 /* AppDelegate.m */; };
+		FC6DCDBC1F9DE1AB00C34621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DCDBB1F9DE1AB00C34621 /* ViewController.m */; };
+		FC6DCDBF1F9DE1AB00C34621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DCDBD1F9DE1AB00C34621 /* Main.storyboard */; };
+		FC6DCDC11F9DE1AB00C34621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6DCDC01F9DE1AB00C34621 /* Assets.xcassets */; };
+		FC6DCDC41F9DE1AB00C34621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6DCDC21F9DE1AB00C34621 /* LaunchScreen.storyboard */; };
+		FC6DCDC71F9DE1AB00C34621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DCDC61F9DE1AB00C34621 /* main.m */; };
+		FC6DCDD11F9DE1AB00C34621 /* AddressPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DCDD01F9DE1AB00C34621 /* AddressPickerTests.m */; };
+		FC6DCDDC1F9DE1AB00C34621 /* AddressPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DCDDB1F9DE1AB00C34621 /* AddressPickerUITests.m */; };
+		FC6DCDEC1F9DE30600C34621 /* AddressSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6DCDEB1F9DE30600C34621 /* AddressSelector.m */; };
+		FC6DCDEE1F9DE64B00C34621 /* Address.plist in Sources */ = {isa = PBXBuildFile; fileRef = FC6DCDED1F9DE5F000C34621 /* Address.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6DCDCD1F9DE1AB00C34621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DCDAC1F9DE1AB00C34621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DCDB31F9DE1AB00C34621;
+			remoteInfo = AddressPicker;
+		};
+		FC6DCDD81F9DE1AB00C34621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC6DCDAC1F9DE1AB00C34621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC6DCDB31F9DE1AB00C34621;
+			remoteInfo = AddressPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC6DCDB41F9DE1AB00C34621 /* AddressPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DCDB71F9DE1AB00C34621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC6DCDB81F9DE1AB00C34621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC6DCDBA1F9DE1AB00C34621 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC6DCDBB1F9DE1AB00C34621 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC6DCDBE1F9DE1AB00C34621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6DCDC01F9DE1AB00C34621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6DCDC31F9DE1AB00C34621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6DCDC51F9DE1AB00C34621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6DCDC61F9DE1AB00C34621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC6DCDCC1F9DE1AB00C34621 /* AddressPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DCDD01F9DE1AB00C34621 /* AddressPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerTests.m; sourceTree = "<group>"; };
+		FC6DCDD21F9DE1AB00C34621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6DCDD71F9DE1AB00C34621 /* AddressPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6DCDDB1F9DE1AB00C34621 /* AddressPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerUITests.m; sourceTree = "<group>"; };
+		FC6DCDDD1F9DE1AB00C34621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6DCDEA1F9DE30600C34621 /* AddressSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressSelector.h; sourceTree = "<group>"; };
+		FC6DCDEB1F9DE30600C34621 /* AddressSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressSelector.m; sourceTree = "<group>"; };
+		FC6DCDED1F9DE5F000C34621 /* Address.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC6DCDB11F9DE1AB00C34621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DCDC91F9DE1AB00C34621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DCDD41F9DE1AB00C34621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC6DCDAB1F9DE1AA00C34621 = {
+			isa = PBXGroup;
+			children = (
+				FC6DCDE91F9DE2DB00C34621 /* view */,
+				FC6DCDB61F9DE1AB00C34621 /* AddressPicker */,
+				FC6DCDCF1F9DE1AB00C34621 /* AddressPickerTests */,
+				FC6DCDDA1F9DE1AB00C34621 /* AddressPickerUITests */,
+				FC6DCDB51F9DE1AB00C34621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC6DCDB51F9DE1AB00C34621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DCDB41F9DE1AB00C34621 /* AddressPicker.app */,
+				FC6DCDCC1F9DE1AB00C34621 /* AddressPickerTests.xctest */,
+				FC6DCDD71F9DE1AB00C34621 /* AddressPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC6DCDB61F9DE1AB00C34621 /* AddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DCDB71F9DE1AB00C34621 /* AppDelegate.h */,
+				FC6DCDB81F9DE1AB00C34621 /* AppDelegate.m */,
+				FC6DCDBA1F9DE1AB00C34621 /* ViewController.h */,
+				FC6DCDBB1F9DE1AB00C34621 /* ViewController.m */,
+				FC6DCDBD1F9DE1AB00C34621 /* Main.storyboard */,
+				FC6DCDC01F9DE1AB00C34621 /* Assets.xcassets */,
+				FC6DCDC21F9DE1AB00C34621 /* LaunchScreen.storyboard */,
+				FC6DCDC51F9DE1AB00C34621 /* Info.plist */,
+				FC6DCDC61F9DE1AB00C34621 /* main.m */,
+			);
+			path = AddressPicker;
+			sourceTree = "<group>";
+		};
+		FC6DCDCF1F9DE1AB00C34621 /* AddressPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DCDD01F9DE1AB00C34621 /* AddressPickerTests.m */,
+				FC6DCDD21F9DE1AB00C34621 /* Info.plist */,
+			);
+			path = AddressPickerTests;
+			sourceTree = "<group>";
+		};
+		FC6DCDDA1F9DE1AB00C34621 /* AddressPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DCDDB1F9DE1AB00C34621 /* AddressPickerUITests.m */,
+				FC6DCDDD1F9DE1AB00C34621 /* Info.plist */,
+			);
+			path = AddressPickerUITests;
+			sourceTree = "<group>";
+		};
+		FC6DCDE91F9DE2DB00C34621 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FC6DCDED1F9DE5F000C34621 /* Address.plist */,
+				FC6DCDEA1F9DE30600C34621 /* AddressSelector.h */,
+				FC6DCDEB1F9DE30600C34621 /* AddressSelector.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC6DCDB31F9DE1AB00C34621 /* AddressPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DCDE01F9DE1AB00C34621 /* Build configuration list for PBXNativeTarget "AddressPicker" */;
+			buildPhases = (
+				FC6DCDB01F9DE1AB00C34621 /* Sources */,
+				FC6DCDB11F9DE1AB00C34621 /* Frameworks */,
+				FC6DCDB21F9DE1AB00C34621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddressPicker;
+			productName = AddressPicker;
+			productReference = FC6DCDB41F9DE1AB00C34621 /* AddressPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6DCDCB1F9DE1AB00C34621 /* AddressPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DCDE31F9DE1AB00C34621 /* Build configuration list for PBXNativeTarget "AddressPickerTests" */;
+			buildPhases = (
+				FC6DCDC81F9DE1AB00C34621 /* Sources */,
+				FC6DCDC91F9DE1AB00C34621 /* Frameworks */,
+				FC6DCDCA1F9DE1AB00C34621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DCDCE1F9DE1AB00C34621 /* PBXTargetDependency */,
+			);
+			name = AddressPickerTests;
+			productName = AddressPickerTests;
+			productReference = FC6DCDCC1F9DE1AB00C34621 /* AddressPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC6DCDD61F9DE1AB00C34621 /* AddressPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6DCDE61F9DE1AB00C34621 /* Build configuration list for PBXNativeTarget "AddressPickerUITests" */;
+			buildPhases = (
+				FC6DCDD31F9DE1AB00C34621 /* Sources */,
+				FC6DCDD41F9DE1AB00C34621 /* Frameworks */,
+				FC6DCDD51F9DE1AB00C34621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6DCDD91F9DE1AB00C34621 /* PBXTargetDependency */,
+			);
+			name = AddressPickerUITests;
+			productName = AddressPickerUITests;
+			productReference = FC6DCDD71F9DE1AB00C34621 /* AddressPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC6DCDAC1F9DE1AB00C34621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tenghu;
+				TargetAttributes = {
+					FC6DCDB31F9DE1AB00C34621 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FC6DCDCB1F9DE1AB00C34621 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC6DCDB31F9DE1AB00C34621;
+					};
+					FC6DCDD61F9DE1AB00C34621 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC6DCDB31F9DE1AB00C34621;
+					};
+				};
+			};
+			buildConfigurationList = FC6DCDAF1F9DE1AB00C34621 /* Build configuration list for PBXProject "AddressPicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC6DCDAB1F9DE1AA00C34621;
+			productRefGroup = FC6DCDB51F9DE1AB00C34621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC6DCDB31F9DE1AB00C34621 /* AddressPicker */,
+				FC6DCDCB1F9DE1AB00C34621 /* AddressPickerTests */,
+				FC6DCDD61F9DE1AB00C34621 /* AddressPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC6DCDB21F9DE1AB00C34621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DCDC41F9DE1AB00C34621 /* LaunchScreen.storyboard in Resources */,
+				FC6DCDC11F9DE1AB00C34621 /* Assets.xcassets in Resources */,
+				FC6DCDBF1F9DE1AB00C34621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DCDCA1F9DE1AB00C34621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DCDD51F9DE1AB00C34621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC6DCDB01F9DE1AB00C34621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DCDEE1F9DE64B00C34621 /* Address.plist in Sources */,
+				FC6DCDBC1F9DE1AB00C34621 /* ViewController.m in Sources */,
+				FC6DCDC71F9DE1AB00C34621 /* main.m in Sources */,
+				FC6DCDB91F9DE1AB00C34621 /* AppDelegate.m in Sources */,
+				FC6DCDEC1F9DE30600C34621 /* AddressSelector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DCDC81F9DE1AB00C34621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DCDD11F9DE1AB00C34621 /* AddressPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6DCDD31F9DE1AB00C34621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6DCDDC1F9DE1AB00C34621 /* AddressPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6DCDCE1F9DE1AB00C34621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DCDB31F9DE1AB00C34621 /* AddressPicker */;
+			targetProxy = FC6DCDCD1F9DE1AB00C34621 /* PBXContainerItemProxy */;
+		};
+		FC6DCDD91F9DE1AB00C34621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC6DCDB31F9DE1AB00C34621 /* AddressPicker */;
+			targetProxy = FC6DCDD81F9DE1AB00C34621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6DCDBD1F9DE1AB00C34621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DCDBE1F9DE1AB00C34621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6DCDC21F9DE1AB00C34621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6DCDC31F9DE1AB00C34621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6DCDDE1F9DE1AB00C34621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC6DCDDF1F9DE1AB00C34621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6DCDE11F9DE1AB00C34621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = AddressPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.AddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6DCDE21F9DE1AB00C34621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ5C47MMK7;
+				INFOPLIST_FILE = AddressPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.AddressPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC6DCDE41F9DE1AB00C34621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.AddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressPicker.app/AddressPicker";
+			};
+			name = Debug;
+		};
+		FC6DCDE51F9DE1AB00C34621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.AddressPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddressPicker.app/AddressPicker";
+			};
+			name = Release;
+		};
+		FC6DCDE71F9DE1AB00C34621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.AddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressPicker;
+			};
+			name = Debug;
+		};
+		FC6DCDE81F9DE1AB00C34621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AddressPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tenghu.AddressPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddressPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC6DCDAF1F9DE1AB00C34621 /* Build configuration list for PBXProject "AddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DCDDE1F9DE1AB00C34621 /* Debug */,
+				FC6DCDDF1F9DE1AB00C34621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DCDE01F9DE1AB00C34621 /* Build configuration list for PBXNativeTarget "AddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DCDE11F9DE1AB00C34621 /* Debug */,
+				FC6DCDE21F9DE1AB00C34621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DCDE31F9DE1AB00C34621 /* Build configuration list for PBXNativeTarget "AddressPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DCDE41F9DE1AB00C34621 /* Debug */,
+				FC6DCDE51F9DE1AB00C34621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6DCDE61F9DE1AB00C34621 /* Build configuration list for PBXNativeTarget "AddressPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6DCDE71F9DE1AB00C34621 /* Debug */,
+				FC6DCDE81F9DE1AB00C34621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC6DCDAC1F9DE1AB00C34621 /* Project object */;
+}
